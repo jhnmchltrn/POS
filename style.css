@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  margin: 10px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-to-order {
+  margin-left: 10px;
+}
+
+#order {
+  height: 300px;
+  overflow-y: auto;
+}
+
+#cash {
+  margin-bottom: 10px;
+}
+
+#order-summary{ padding-left: 5em;
+
+}
